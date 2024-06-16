@@ -1,0 +1,74 @@
+.user-container {
+  background-color: #fffde7;
+  padding: 30px;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.user-details {
+  background-color: #fff9c4;
+  border: 1px solid #ffeb3b;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.user-details:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.user-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fbc02d;
+}
+
+.user-info {
+  font-size: 17px;
+  color: #f57f17;
+  margin-bottom: 20px;
+}
+
+.user-card {
+  background-color: #fff9c4;
+  border: 1px solid #ffeb3b;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 25px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.user-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.user-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fbc02d;
+}
+
+.add-subject-button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #fbc02d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-subject-button:hover {
+  background-color: #f57f17;
+  transform: translateY(-3px);
+}

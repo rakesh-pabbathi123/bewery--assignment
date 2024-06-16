@@ -1,0 +1,36 @@
+/* PageNotFound.css */
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff3e0; /* Light orange background for a warm feel */
+  font-family: "Roboto", sans-serif; /* Modern font-family */
+}
+
+.not-found-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; /* White background for the content box */
+  border: 1px solid #ccae88; /* Light brown border */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-heading {
+  font-size: 6rem;
+  color: #d84315; /* Orange color for the heading */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.not-found-message {
+  font-size: 2rem;
+  color: #5d4037; /* Dark brown color for the message */
+  margin: 10px 0;
+}
+
+.not-found-description {
+  font-size: 1.2rem;
+  color: #6d4c41; /* Medium brown color for the description */
+}

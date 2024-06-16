@@ -1,0 +1,107 @@
+/* AboutPage.css */
+
+.about-container {
+  padding: 20px;
+  overflow-x: auto;
+  font-family: "Roboto", sans-serif; /* Modern font-family */
+}
+
+.about-content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff3e0; /* Light orange background */
+  border: 1px solid #ccae88; /* Light brown border */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #5d4037; /* Dark brown color for headings */
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6; /* Slightly increased line-height for readability */
+  margin-bottom: 20px;
+  color: #6d4c41; /* Medium brown color for text */
+}
+
+.about-subheading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #5d4037; /* Dark brown color for subheadings */
+}
+
+.about-list {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.6; /* Slightly increased line-height for readability */
+  color: #6d4c41; /* Medium brown color for text */
+}
+
+.tech-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow images to wrap for better responsiveness */
+  gap: 10px; /* Space between images */
+}
+
+.tech-image {
+  max-width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.your-image {
+  max-width: 50%;
+  height: auto;
+  margin: 20px auto;
+  display: block; /* Center the image */
+}
+
+.about-contact-info {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #5d4037; /* Dark brown color for contact info */
+}
+
+.about-contact-info a {
+  text-decoration: none;
+  color: #d84315; /* Orange color for links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.about-contact-info a:hover {
+  color: #bf360c; /* Darker orange on hover */
+}
+
+.about-list a {
+  text-decoration: none;
+  color: #d84315; /* Orange color for links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.about-list a:hover {
+  color: #bf360c; /* Darker orange on hover */
+}
+
+@media (max-width: 576px) {
+  .about-list {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .tech-images {
+    justify-content: center; /* Center images on small screens */
+  }
+
+  .tech-image {
+    margin: 10px; /* Adjust margin for small screens */
+  }
+}

@@ -1,0 +1,48 @@
+#signup-card {
+  background-color: #28a745;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#signup-header {
+  background-color: #218838;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#signup-header a {
+  color: #f8f9fa;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+#signup-header a:hover {
+  text-decoration: underline;
+}
+
+#signup-body {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+}
+
+#signup-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+#signup-button:hover {
+  background-color: #218838;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: #218838;
+}

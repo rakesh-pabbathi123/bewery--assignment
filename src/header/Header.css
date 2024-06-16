@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #007bff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand .text-white {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+.navbar-text {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-end {
+  margin-right: 15px;
+}
+
+.navbar-end .text-white {
+  margin-left: 5px;
+}
+
+.navbar-end .text-white:hover {
+  color: #f8f9fa;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-end {
+    margin-right: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .navbar-end .text-white {
+    margin-left: 0;
+  }
+}

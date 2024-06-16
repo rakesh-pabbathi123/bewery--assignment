@@ -1,0 +1,43 @@
+.container {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #d84315;
+  border-color: #d84315;
+  color: #fff;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #bf360c;
+  border-color: #bf360c;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #ffe0b2;
+}
+
+.card-body {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover .card-body {
+  background-color: #ffcc80;
+}
